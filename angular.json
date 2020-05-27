@@ -34,8 +34,8 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/",
-              "deployUrl": "https://akauangr.github.io/",
+              "baseHref": "/akauangr/",
+              "deployUrl": "https://akauangr.github.io/akauangr/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
