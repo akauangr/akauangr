@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590598085136,
+  "timestamp": 1590615303284,
   "index": "/akauangr/index.html",
   "assetGroups": [
     {
@@ -25,6 +25,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/akauangr/assets/icons/akauangr.svg",
         "/akauangr/assets/icons/icon-128x128.png",
         "/akauangr/assets/icons/icon-144x144.png",
         "/akauangr/assets/icons/icon-152x152.png",
@@ -39,16 +40,17 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/akauangr/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/akauangr/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/akauangr/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/akauangr/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/akauangr/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/akauangr/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/akauangr/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/akauangr/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/akauangr/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/akauangr/index.html": "0c795e1ec36acb78d8e9ffbef26e15036efd8f36",
+    "/akauangr/assets/icons/akauangr.svg": "a41cc49cf898cc2a131bd3662ddfda07ccbec26b",
+    "/akauangr/assets/icons/icon-128x128.png": "6f39b4ec91c85b4f0b00db8f4b583a69d901de95",
+    "/akauangr/assets/icons/icon-144x144.png": "79e93d832b6bec928ebddfa86ee029d4cf1c5eff",
+    "/akauangr/assets/icons/icon-152x152.png": "655ace8b60b77288fcc6e2d0c46ee9fa29caf03f",
+    "/akauangr/assets/icons/icon-192x192.png": "b3afcbb1b92c3d99b33894c5702f66645cdc8cf0",
+    "/akauangr/assets/icons/icon-384x384.png": "32fffbfbdcf34153c429123b4e353997c8b90db9",
+    "/akauangr/assets/icons/icon-512x512.png": "dccc73d43eba897ded9672cfe3b1c0911db787f9",
+    "/akauangr/assets/icons/icon-72x72.png": "5d77bdb25d760758ace5537702bcc2d472cfacb6",
+    "/akauangr/assets/icons/icon-96x96.png": "9f7a54a896efd7d26e2c352bc66b5235766a12cb",
+    "/akauangr/favicon.ico": "f2347b93b755044a6c8d4e241c87cd8988870ff4",
+    "/akauangr/index.html": "5a063c8e7056e5f76ea98626b2cf8a7b8eff623b",
     "/akauangr/main-es2015.7f222fa8ac639d1c7f4d.js": "b00086c680815f38a622e6ed0aa56884f573fa03",
     "/akauangr/main-es5.367f69d627f4897f4254.js": "8af97c31888970f282848ae0446deca931ef9c54",
     "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
