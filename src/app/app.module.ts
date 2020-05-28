@@ -21,7 +21,9 @@ import { RouterModule } from '@angular/router';
 
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
-  providers: [],
+  providers: [
+    {provide: 'googleTagManagerId', useValue: 'GTM-M468XV9'}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
