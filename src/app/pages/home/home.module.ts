@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HomeCanvasComponent } from './home-canvas/home-canvas.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { ThemeModule } from 'src/app/@theme/theme.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -9,7 +11,8 @@ import { HomeCanvasComponent } from './home-canvas/home-canvas.component';
     HomeCanvasComponent,
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    ThemeModule,
+  ],
 })
 export class HomeModule { }
