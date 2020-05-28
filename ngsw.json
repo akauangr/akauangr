@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590684880922,
+  "timestamp": 1590685041192,
   "index": "/akauangr/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "/akauangr/4-es2015.07dd7cbc0f694b3101bd.js",
         "/akauangr/favicon.ico",
         "/akauangr/index.html",
-        "/akauangr/main-es2015.a449c35a204f9c675f63.js",
-        "/akauangr/main-es5.04682ceb76034b860a11.js",
+        "/akauangr/main-es2015.271950cb1505cc7cf886.js",
+        "/akauangr/main-es5.7e5b3a3cc496e8fb0162.js",
         "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js",
         "/akauangr/polyfills-es5.7f43b971448d2fb49202.js",
         "/akauangr/runtime-es2015.44385d602909f75cd576.js",
@@ -54,9 +54,9 @@
     "/akauangr/assets/icons/icon-72x72.png": "5d77bdb25d760758ace5537702bcc2d472cfacb6",
     "/akauangr/assets/icons/icon-96x96.png": "9f7a54a896efd7d26e2c352bc66b5235766a12cb",
     "/akauangr/favicon.ico": "f2347b93b755044a6c8d4e241c87cd8988870ff4",
-    "/akauangr/index.html": "ce64d577929d451fede3bcbd65b4e5489ba2c664",
-    "/akauangr/main-es2015.a449c35a204f9c675f63.js": "12e12895b7b714165688f73181ba85061e9c3e20",
-    "/akauangr/main-es5.04682ceb76034b860a11.js": "623b5e68b11e63d03ddd7d49fa094c9f394289fb",
+    "/akauangr/index.html": "ad50e01fadcf061d01de1c7610f9b25e6914b2fb",
+    "/akauangr/main-es2015.271950cb1505cc7cf886.js": "4b696aa9ebeeaccb24e206704fb8bc999b61838c",
+    "/akauangr/main-es5.7e5b3a3cc496e8fb0162.js": "647ad6dd45366cab48cbd434131d5e468cb3f856",
     "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "/akauangr/polyfills-es5.7f43b971448d2fb49202.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
     "/akauangr/runtime-es2015.44385d602909f75cd576.js": "590491904cab521afb68caf3f67623af796448a4",
