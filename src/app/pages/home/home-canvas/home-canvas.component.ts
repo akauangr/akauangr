@@ -14,8 +14,34 @@ export class HomeCanvasComponent implements OnInit {
 
   ngOnInit(): void {
     this.ctx = this.canvas.nativeElement.getContext('2d');
+
+    this.resizeCanvas();
+    this.render();
   }
 
-  animate(): void { }
+  resizeCanvas() {
+    console.group("Resize");
 
+    console.log(this.ctx);
+
+    console.log("Resize Done.");
+    console.groupEnd();
+  }
+
+  render(): void {
+    console.group("Render");
+
+    this.ctx.fillStyle = "#FF0000";
+    this.ctx.fillRect(0, 0, 150, 75);
+
+    console.log("Render Done.");
+    console.groupEnd();
+  }
+
+  animate(): void {
+    console.group("Animation");
+
+    console.log('Animtion Done.');
+    console.groupEnd();
+  }
 }
