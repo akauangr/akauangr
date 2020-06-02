@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-home-canvas',
@@ -14,17 +14,17 @@ export class HomeCanvasComponent implements OnInit {
 
   ngOnInit(): void {
     this.ctx = this.canvas.nativeElement.getContext('2d');
-
-    this.resizeCanvas();
-    this.render();
+    this.resizeCanvas({});
   }
 
-  resizeCanvas() {
+  @HostListener('window:resize', ['$event'])
+  resizeCanvas(event) {
     console.group("Resize");
-
-    console.log(this.ctx);
-
+    this.ctx.canvas.width = window.innerWidth;
+    this.ctx.canvas.height = window.innerHeight;
     console.log("Resize Done.");
+
+    this.render();
     console.groupEnd();
   }
 
@@ -32,7 +32,11 @@ export class HomeCanvasComponent implements OnInit {
     console.group("Render");
 
     this.ctx.fillStyle = "#FF0000";
-    this.ctx.fillRect(0, 0, 150, 75);
+    this.ctx.fillRect(0, 0, 150, 150);
+
+    this.ctx.font = "30px Arial";
+    this.ctx.fillStyle = "#FFFFFF";
+    this.ctx.fillText("Hi, I'm Akauan", 10, 50);
 
     console.log("Render Done.");
     console.groupEnd();
@@ -41,7 +45,7 @@ export class HomeCanvasComponent implements OnInit {
   animate(): void {
     console.group("Animation");
 
-    console.log('Animtion Done.');
+    console.log('Animation Done.');
     console.groupEnd();
   }
 }

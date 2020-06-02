@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-pages',
   styleUrls: ['pages.component.scss'],
   template: `
-  Pages
   <router-outlet></router-outlet>
   `,
 })
