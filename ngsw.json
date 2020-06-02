@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591106150819,
+  "timestamp": 1591122247936,
   "index": "/akauangr/index.html",
   "assetGroups": [
     {
@@ -8,16 +8,16 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/akauangr/3-es5.889b1010a3ea108f0898.js",
-        "/akauangr/4-es2015.8e39dc0bf6f54c56350a.js",
+        "/akauangr/3-es5.08c0814475b80fb61a52.js",
+        "/akauangr/4-es2015.6d8e6212239b5459c27a.js",
         "/akauangr/favicon.ico",
         "/akauangr/index.html",
         "/akauangr/main-es2015.29ababdb6658759eb764.js",
         "/akauangr/main-es5.648bbc5c49b738c42817.js",
         "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js",
         "/akauangr/polyfills-es5.7f43b971448d2fb49202.js",
-        "/akauangr/runtime-es2015.2b4305b20c8606b42d88.js",
-        "/akauangr/runtime-es5.0328d039d21a31166628.js",
+        "/akauangr/runtime-es2015.f33c8a18200f2e3ba404.js",
+        "/akauangr/runtime-es5.f7f3d895e124040aed6e.js",
         "/akauangr/styles.cc41eaa9440c5da4a2cd.css"
       ],
       "patterns": []
@@ -42,8 +42,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/akauangr/3-es5.889b1010a3ea108f0898.js": "21f85a4ab86ca2354af79ea443cfa47628825e58",
-    "/akauangr/4-es2015.8e39dc0bf6f54c56350a.js": "b21e2d7513956db6099f51881fab6f5185a8c572",
+    "/akauangr/3-es5.08c0814475b80fb61a52.js": "5d7079aae75646ee22dd0819d310083b6eb8563e",
+    "/akauangr/4-es2015.6d8e6212239b5459c27a.js": "64bb3f109f66de8963c8d9f3b5d1f5ae4c1ffd63",
     "/akauangr/assets/icons/akauangr.svg": "a41cc49cf898cc2a131bd3662ddfda07ccbec26b",
     "/akauangr/assets/icons/icon-128x128.png": "6f39b4ec91c85b4f0b00db8f4b583a69d901de95",
     "/akauangr/assets/icons/icon-144x144.png": "79e93d832b6bec928ebddfa86ee029d4cf1c5eff",
@@ -54,13 +54,13 @@
     "/akauangr/assets/icons/icon-72x72.png": "5d77bdb25d760758ace5537702bcc2d472cfacb6",
     "/akauangr/assets/icons/icon-96x96.png": "9f7a54a896efd7d26e2c352bc66b5235766a12cb",
     "/akauangr/favicon.ico": "f2347b93b755044a6c8d4e241c87cd8988870ff4",
-    "/akauangr/index.html": "eb43d3b24dde426a9489d10aa300ed3b961f12ac",
+    "/akauangr/index.html": "d8c50f5bbc4d49d17245840a981a30d9061f25fe",
     "/akauangr/main-es2015.29ababdb6658759eb764.js": "b86ea3a29518c3d40d871277aa64ae83d7fe9281",
     "/akauangr/main-es5.648bbc5c49b738c42817.js": "5d91c47a607172f15e7e75a2b54bac94c98a46d8",
     "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "/akauangr/polyfills-es5.7f43b971448d2fb49202.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
-    "/akauangr/runtime-es2015.2b4305b20c8606b42d88.js": "e75aa0ff23ed5607eab1b9ebde164a46fcd7b640",
-    "/akauangr/runtime-es5.0328d039d21a31166628.js": "23fe305eaa177d37afdcb64620fc3f112966e30a",
+    "/akauangr/runtime-es2015.f33c8a18200f2e3ba404.js": "73d8d55c68d5efd855235f217d97a838bb551491",
+    "/akauangr/runtime-es5.f7f3d895e124040aed6e.js": "233e6ff73197e7818bb3572f96eaa64c691df365",
     "/akauangr/styles.cc41eaa9440c5da4a2cd.css": "c5b0eedb5c28f2f6a953d3a5988a611497c9dcb9"
   },
   "navigationUrls": [
