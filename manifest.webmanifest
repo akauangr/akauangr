@@ -1,8 +1,11 @@
 {
   "name": "@akauangr",
   "short_name": "@akauangr",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "author": "Akauan Gonçalves Resende",
+  "orientation": "portrait",
+  "color": "#ffffff",
+  "theme_color": "#02a9f7",
+  "background_color": "#000000",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
