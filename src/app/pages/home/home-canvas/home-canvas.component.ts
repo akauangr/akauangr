@@ -28,24 +28,53 @@ export class HomeCanvasComponent implements OnInit {
     console.groupEnd();
   }
 
+  elements: any = [];
+
   render(): void {
     console.group("Render");
 
-    this.ctx.fillStyle = "#FF0000";
-    this.ctx.fillRect(0, 0, 150, 150);
+    // Adiciona objetos ao canvas
+    this.elements.push(new Ball(this.ctx));
+    this.elements.push(new Ball(this.ctx, 100, 100, 30, 'green'));
+    this.elements.push(new Ball(this.ctx, 200, 200, 40, 'blue'));
 
-    this.ctx.font = "30px Arial";
-    this.ctx.fillStyle = "#FFFFFF";
-    this.ctx.fillText("Hi, I'm Akauan", 10, 50);
+    // Para cada elemento do canvas
+    this.elements.forEach(element => {
+      element.draw();
+    });
 
     console.log("Render Done.");
     console.groupEnd();
   }
+}
 
-  animate(): void {
-    console.group("Animation");
+export class Ball {
 
-    console.log('Animation Done.');
-    console.groupEnd();
+  ctx: any;
+  x: number;
+  y: number;
+  radius: number;
+  color: string;
+
+  constructor(
+    ctx: any,
+    x: number = 0,
+    y: number = 0,
+    radius: number = 25,
+    color: string = "red"
+  ) {
+    this.ctx = ctx;
+    this.x = x;
+    this.y = y;
+    this.radius = radius;
+    this.color = color;
+  }
+
+  draw() {
+    this.ctx.beginPath();
+    this.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
+    this.ctx.closePath();
+    this.ctx.fillStyle = this.color;
+    this.ctx.fill();
   }
 }
