@@ -16,6 +16,9 @@ MIT
 angular-google-tag-manager
 MIT
 
+angular-particle
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
