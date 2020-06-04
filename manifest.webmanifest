@@ -2,6 +2,7 @@
   "name": "@akauangr",
   "short_name": "@akauangr",
   "author": "Akauan Gonçalves Resende",
+  "description": "Hi, I'm Akauan, a web designer. Join me to see some cool stuff, and what I'm testing right now.",
   "orientation": "portrait",
   "color": "#ffffff",
   "theme_color": "#02a9f7",
@@ -9,8 +10,7 @@
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
-  "icons": [
-    {
+  "icons": [{
       "src": "assets/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",

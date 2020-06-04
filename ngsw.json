@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591291257017,
+  "timestamp": 1591292345847,
   "index": "/akauangr/index.html",
   "assetGroups": [
     {
@@ -54,7 +54,7 @@
     "/akauangr/assets/icons/icon-72x72.png": "5d77bdb25d760758ace5537702bcc2d472cfacb6",
     "/akauangr/assets/icons/icon-96x96.png": "9f7a54a896efd7d26e2c352bc66b5235766a12cb",
     "/akauangr/favicon.ico": "f2347b93b755044a6c8d4e241c87cd8988870ff4",
-    "/akauangr/index.html": "73fae38195d015c3bd019fda46a009f95437e0dc",
+    "/akauangr/index.html": "a06f13ed8895c666feb7b3c286dedc5376bda71e",
     "/akauangr/main-es2015.84135255c4d6ec7d7ed6.js": "67daac9c3679369a06b3bcdffaa2d8114dcccc10",
     "/akauangr/main-es5.345808c75abdd9c81c58.js": "09071e18c3d4847b5de6ff1a1f415777c743ff6e",
     "/akauangr/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
