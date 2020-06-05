@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ThemeModule } from './@theme/theme.module';
-import { RouterModule } from '@angular/router';
+import { DirectivesModule } from './@core/directives/directives.module';
 
 @NgModule({
   declarations: [
@@ -16,13 +16,11 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     ThemeModule,
-
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
-    {provide: 'googleTagManagerId', useValue: 'GTM-M468XV9'}
+    { provide: 'googleTagManagerId', useValue: 'GTM-M468XV9' }
   ],
   bootstrap: [AppComponent]
 })

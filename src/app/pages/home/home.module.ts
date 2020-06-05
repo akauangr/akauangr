@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ThemeModule } from 'src/app/@theme/theme.module';
 import { CommonModule } from '@angular/common';
 import { ParticlesModule } from 'angular-particle';
+import { DirectivesModule } from 'src/app/@core/directives/directives.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,8 @@ import { ParticlesModule } from 'angular-particle';
   imports: [
     CommonModule,
     ThemeModule,
+    DirectivesModule,
+
     ParticlesModule,
   ],
 })
