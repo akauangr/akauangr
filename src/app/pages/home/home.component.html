@@ -1,50 +1,8 @@
 <app-header *ngIf="false"></app-header>
 <app-home-canvas></app-home-canvas>
-
-<div>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis mattis augue ut ullamcorper.
-        Pellentesque eros dolor, tempor sed felis non, elementum dignissim mauris. Maecenas lacus ipsum, accumsan eget
-        turpis a, placerat imperdiet tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-        pretium vulputate lacus a tempus. Proin in sodales tortor, quis tristique elit. Aliquam scelerisque euismod
-        mauris vel elementum. Nunc mollis dolor id metus ullamcorper, sit amet vehicula libero vulputate. Phasellus
-        dolor metus, cursus vitae placerat ac, consectetur sit amet est. Sed laoreet rutrum nibh in imperdiet.
-        Pellentesque eu nisl justo. Curabitur facilisis hendrerit lacus. Praesent vel facilisis nibh, ac ornare dui.
-        Integer vitae scelerisque risus. Cras sollicitudin mauris eu lorem ornare, a pharetra magna convallis.
-    </p>
-    <p>
-        Duis malesuada molestie est a venenatis. Etiam hendrerit eros posuere quam vehicula dictum. Nunc feugiat euismod
-        rutrum. Nam venenatis mollis aliquam. In vel augue laoreet, accumsan velit ac, gravida justo. Phasellus ex
-        libero, suscipit sed interdum in, sagittis vitae arcu. Nulla ultricies luctus sapien in convallis. In sed varius
-        neque, ac gravida nunc.
-    </p>
-    <p>
-        Fusce laoreet eros sed ipsum pulvinar faucibus. Nulla facilisi. Integer malesuada urna vitae justo semper
-        lacinia. Curabitur luctus ante pharetra felis placerat sollicitudin. Aenean molestie purus ac arcu venenatis
-        pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet nunc eget pellentesque mattis.
-        Pellentesque malesuada commodo ante, elementum fringilla lectus vestibulum vitae. Mauris nec nunc sit amet ante
-        condimentum ultrices vitae sit amet velit. Proin aliquet volutpat erat. Cras fermentum tellus in metus dictum,
-        sit amet aliquet odio mollis. Integer finibus quam sed enim ullamcorper accumsan. Aliquam in lectus a tortor
-        sagittis dapibus.
-    </p>
-    <p>
-        Morbi at felis elit. Mauris dui nunc, tempus eu turpis eget, iaculis sollicitudin erat. Nam elementum vel libero
-        quis consequat. Sed sed nisi nec nisi mattis volutpat ut ut eros. Nullam convallis egestas metus quis faucibus.
-        Ut pulvinar tellus ante, ut auctor sapien rutrum eget. Ut sit amet odio rhoncus, sagittis eros eget, mattis
-        arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac est
-        pulvinar turpis facilisis volutpat vel egestas lacus. Mauris et augue maximus, pharetra nunc ut, fermentum mi.
-        Quisque at est aliquam, vulputate arcu id, mollis turpis. Vestibulum ante ipsum primis in faucibus orci luctus
-        et ultrices posuere cubilia curae; Vestibulum at sapien urna. Sed accumsan vestibulum est, vitae pretium justo
-        luctus eu. Cras semper, elit nec pretium convallis, orci magna cursus ex, nec aliquet orci felis sit amet magna.
-    </p>
-    <p>
-        Curabitur sollicitudin iaculis est nec consectetur. Quisque nibh augue, interdum at quam ac, molestie venenatis
-        arcu. Integer pulvinar neque id tellus feugiat ultrices. Nulla egestas sapien quam, at placerat nunc consectetur
-        et. Quisque luctus rutrum est nec interdum. Phasellus semper condimentum nibh eu cursus. Sed consequat vulputate
-        ipsum. Sed ac tristique augue. Praesent quis orci at justo ultricies tristique quis quis velit. Phasellus nisl
-        arcu, blandit sit amet leo id, tempus vehicula lorem. Ut ipsum felis, auctor quis malesuada mattis, auctor et
-        metus. Proin vulputate risus et pharetra egestas. In eleifend risus non sagittis convallis. Nulla facilisi.
-        Morbi pulvinar vestibulum mauris, eu dignissim odio egestas sed.
-    </p>
+<div class="click-here">
+    <span class="click-text"><i class="far fa-hand-point-down"></i>Scroll</span>
+    <a [routerLink]="['/games/runner']">
+        <img class="click-image" src="assets/img/run.gif" alt="Running man image.">
+    </a>
 </div>

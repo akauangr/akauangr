@@ -1,4 +1,77 @@
-:host(.active) {
+:host(.active),
+html,
+body {
   background-color: black;
   color: white;
+}
+
+body {
+  height: 150%;
+}
+
+.click-here {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  bottom: -175px;
+  left: 0px;
+  width: 100%;
+
+  .click-text {
+    display: block;
+    margin-bottom: 50px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+  }
+
+  .click-image:hover {
+    -webkit-animation: psycoImage 3.5s infinite;
+    animation: psycoImage 3.5s infinite;
+  }
+
+}
+
+@keyframes psycoImage {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    filter: hue-rotate(100deg);
+  }
+
+  75% {
+    filter: hue-rotate(90deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+@-webkit-keyframes psycoImage {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    filter: hue-rotate(100deg);
+  }
+
+  75% {
+    filter: hue-rotate(90deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
+  }
 }

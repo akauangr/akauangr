@@ -1,5 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+$fa-font-path: "../../../../node_modules/font-awesome/fonts";
+@import "../../../../node_modules/font-awesome/scss/font-awesome.scss";
+
+/* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +12,5 @@
 body,
 html {
   height: 100%;
+  background-color: black;
 }

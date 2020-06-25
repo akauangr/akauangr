@@ -20,9 +20,9 @@ export class HomeCanvasComponent implements OnInit {
       'position': 'relative',
       'display': 'inline-block',
       'width': '100%',
-      'height': '100%',
+      'height': '150%',
       'background-color': '#000',
-      'z-index': -1,
+      'z-index': 0,
       'top': 0,
       'left': 0,
       'right': 0,
@@ -49,7 +49,6 @@ export class HomeCanvasComponent implements OnInit {
         }
       }
     };
-
 
     this.resizeCanvas({});
   }

@@ -6,6 +6,7 @@ import { ThemeModule } from 'src/app/@theme/theme.module';
 import { CommonModule } from '@angular/common';
 import { ParticlesModule } from 'angular-particle';
 import { DirectivesModule } from 'src/app/@core/directives/directives.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,8 @@ import { DirectivesModule } from 'src/app/@core/directives/directives.module';
     CommonModule,
     ThemeModule,
     DirectivesModule,
+
+    RouterModule,
 
     ParticlesModule,
   ],
