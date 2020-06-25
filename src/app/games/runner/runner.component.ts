@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import * as p5 from 'p5';
-import "p5/lib/addons/p5.sound";
 
 @Component({
   selector: 'app-runner',
@@ -8,6 +7,9 @@ import "p5/lib/addons/p5.sound";
   styleUrls: ['./runner.component.scss']
 })
 export class RunnerComponent implements OnInit {
+
+  @ViewChild('sketchArea', { static: true }) el: ElementRef;
+
   private p5;
   constructor() { }
 
@@ -71,7 +73,6 @@ export class RunnerComponent implements OnInit {
       [208, 626],
       [312, 626],
     ];
-
     const matrizPersonagem = [
       [0, 0],
       [220, 0],
@@ -90,7 +91,6 @@ export class RunnerComponent implements OnInit {
       [440, 810],
       [660, 810],
     ];
-
     const matrizInimigoGrande = [
       [0, 0],
       [400, 0],
@@ -149,19 +149,15 @@ export class RunnerComponent implements OnInit {
       imagemInimigo = p.loadImage('assets/games/runner/imagens/inimigos/gotinha.png');
       imagemInimigoVoador = p.loadImage('assets/games/runner/imagens/inimigos/gotinha-voadora.png');
       imagemInimigoGrande = p.loadImage('assets/games/runner/imagens/inimigos/troll.png');
+
       // somDoJogo = p.loadSound('assets/games/runner/sons/trilha_jogo.mp3');
       // somDoPulo = p.loadSound('assets/games/runner/sons/somPulo.mp3');
     }
 
-    p.keyPressed = () => {
-      if (p.key === 'ArrowUp') {
-        personagem.pula();
-        // somDoPulo.play();
-      }
-    }
-
     p.setup = () => {
-      p.createCanvas(600, 600);
+
+      p.createCanvas(p.windowWidth , p.windowHeight);
+
       cenario = new Cenario(p, imagemCenario, 3);
       pontuacao = new Pontuacao(p);
 
@@ -176,6 +172,13 @@ export class RunnerComponent implements OnInit {
 
       p.frameRate(40);
       // somDoJogo.loop();
+    }
+
+    p.keyPressed = () => {
+      if (p.key === 'ArrowUp') {
+        personagem.pula();
+        // somDoPulo.play();
+      }
     }
 
     p.draw = () => {

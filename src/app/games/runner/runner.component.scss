@@ -1,3 +1,19 @@
 :host {
+  color: white;
+}
+
+.info {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+
+  .username {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
     color: white;
+
+    :hover {
+      color: #02a9f7;
+    }
+  }
 }

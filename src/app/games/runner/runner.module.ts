@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RunnerComponent } from './runner.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [
-    RunnerComponent,
-  ],
+  declarations: [RunnerComponent,],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
   ],
   exports: [
     RunnerComponent,
