@@ -92,7 +92,7 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/app/@theme/styles/styles.scss",
+              "src/app/@theme/styles/styles.scss"
             ],
             "scripts": [
               "node_modules/p5/lib/p5.min.js",
