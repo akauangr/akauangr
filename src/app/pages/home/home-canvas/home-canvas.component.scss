@@ -1,9 +1,30 @@
-.username {
-  font-family: 'Press Start 2P', cursive;
+.link-username {
   text-decoration: none;
-  color: white;
-}
+  /* Chrome all / Safari all */
+  -webkit-user-select: none;
+  /* Firefox all */
+  -moz-user-select: none;
+  /* IE 10+ */
+  -ms-user-select: none;
+  /* Likely future */
+  user-select: none;
 
-.username:hover {
-  color: #02a9f7;
+  .username {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: #02a9f7;
+      text-decoration: none;
+    }
+
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:active {
+      text-decoration: none;
+    }
+  }
 }
