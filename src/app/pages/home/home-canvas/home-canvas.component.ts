@@ -20,7 +20,7 @@ export class HomeCanvasComponent implements OnInit {
       'position': 'relative',
       'display': 'inline-block',
       'width': '100%',
-      'height': '150%',
+      'height': '100%',
       'background-color': '#000',
       'z-index': 0,
       'top': 0,

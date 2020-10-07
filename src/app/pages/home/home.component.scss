@@ -13,7 +13,7 @@ body {
   position: absolute;
   text-align: center;
   z-index: 2;
-  bottom: -175px;
+  bottom: -25px;
   left: 0px;
   width: 100%;
 
@@ -24,12 +24,6 @@ body {
     text-decoration: none;
     color: white;
   }
-
-  .click-image:hover {
-    -webkit-animation: psycoImage 3.5s infinite;
-    animation: psycoImage 3.5s infinite;
-  }
-
 }
 
 @keyframes psycoImage {

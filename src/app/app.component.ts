@@ -16,6 +16,7 @@ export class AppComponent {
     private router: Router,
   ){
 
+    // Track navigation
     this.router.events.forEach(item => {
       if (item instanceof NavigationEnd) {
         const gtmTag = {
