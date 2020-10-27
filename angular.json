@@ -26,7 +26,9 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
-              "src/sitemap.xml"
+              "src/sitemap.xml",
+              "src/robots.txt",
+              "src/.htaccess"
             ],
             "styles": [
               "src/app/@theme/styles/styles.scss",
